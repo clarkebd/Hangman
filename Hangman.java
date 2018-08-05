@@ -6,10 +6,13 @@ package chapter7;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
-public class Hangman {
+public class Hangman
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         String words[] = {"bat", "cat", "dog", "horse", "milk", "bread", "honey"};
 
@@ -77,7 +80,7 @@ public class Hangman {
         } // end main WHILE  
         
         System.out.print("\n\n!!! WINNER !!!\n");
-        System.out.printf("It only took you %d tries.\n\n", tries);
+        System.out.printf("It took you %d tries.\n\n", tries);
         
     } //end MAIN
 } // end CLASS
